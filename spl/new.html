@@ -1,0 +1,17 @@
+<button id="safeBtn">Click Me</button>
+
+<script>
+function makeSafeCounter() {
+  let count = 0; // private
+  return function() {
+    count++;
+    document.getElementById('safeBtn').innerText = `Clicked ${count} times`;
+  };
+}
+
+const handleClick = makeSafeCounter();
+document.getElementById('safeBtn').addEventListener('click', handleClick);
+
+// try to hack it
+handleClick.count = 9999; // won't affect the private variable
+</script>

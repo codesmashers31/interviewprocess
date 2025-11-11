@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js closers</title>
+</head>
+<body>
+<button id="btn1">Closure Counter</button>
+<button id="btn2">Normal Counter</button>
+
+
+
+<script>
+    // CLOSURE METHOD
+function closureCounter() {
+  let count = 0;
+  return function() {
+    count++;
+    document.getElementById('btn1').innerText = `Closure Count: ${count}`;
+  };
+}
+const closureClick = closureCounter();
+document.getElementById('btn1').addEventListener('click', closureClick);
+
+// NORMAL METHOD
+let normalCount = 0;
+document.getElementById('btn2').addEventListener('click', function() {
+  normalCount++;
+  document.getElementById('btn2').innerText = `Normal Count: ${normalCount}`;
+});
+
+
+
+
+// let count = 0;
+// function normalCounter() {
+//   console.log('Normal count:', ++count);
+// }
+// normalCounter(); // 1
+// count = 1000; // anyone can change it
+// normalCounter(); // 1001 😬
+
+
+function createCounter() {
+  let count = 0; // private variable
+
+  return function () {
+    count++;
+    console.log('Closure count:', count);
+  };
+}
+
+const counter = createCounter(); // new private space created
+
+counter(); // 1
+counter(); // 2
+counter(); // 3
+
+// Try to hack 👇
+console.log(counter.count); // undefined ❌
+counter.count = 1000;       // doesn't affect internal value
+counter(); // still 4 ✅
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
