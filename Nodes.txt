@@ -1,294 +1,890 @@
+JS
+
+Single theard process - 
+intrepretor language - line by line excusion 
+
+declaration 
+
+variable keyword variable name;
+
+It return undefind value
+
+- init 
+
+variable keyword varable name = data(datatype)
+Primitive and non primitive 
+
+Hosting
+
+when you init value. then you access that value before the init. the java script excecution time 
+take your variable decalaration part only move to the top of their scope 
+
+
+{
+	
+Gobal scope
+block scope
+functional scope
+
+}
+
+
+console.log(a)
+let a = 10
+TDZ
+
+Let const Var
+
+var,let,const globle delar - where ever you want you can use it.
+var - declare - init - redeclare - re assign
+let - declare - init - Can't do redeclare - re assign
+const - init
+
+
+truth values and fales values 
+ true
+ []
+ {}
+ 253
+ "sdfsfd"
+
+ falsy values
+ false
+ ""
+ 0
+
+
+NaN
+
+
+Null - undefind 
+data type - 
+
+ES6+ - es16 - 2025
+
+let/const 
+Function expressions / arrow function
+const datas = ()=>{
+	
+}
+
+const datas = function(){
+	
+}
+
+function datas (){
+	
+}
 
 
 
-1. What are Attributes?
+Template literals
+console.log(``)
+Destucturing
+array
+object
+
+for in  & for of 
+
+optinal cheaning ?
+
+nullesh colusionas ??
+
+spread opeartor
+Spread and unpacked your elements and concotinate your arrays 
+rest operaor
+
+Defalute parametter
+modules - import export
+Async and await
 
 
-Definition: Provide extra information to HTML tags to influence behavior, display, and interaction.
+Async and await
+Objects and array of objects
+functions
+array methods 
 
 
-Purpose: Enable communication between HTML, CSS, JS, and frameworks/tools like Bootstrap and Tailwind.
+React
+Intro setup     -  babel compiler , what is React - CRA Project - 3 - webpack / Vite Project  - 
+
+npx whats -node package execute 
+npm whats - node package manager - 
+
+CRA commend - npx create-react-app appname     - host - post number 3000
+Vite comment - npm create vite@latest appname  - host - port number 5173
+
+Do some procudue - remove all form app.css and index.css
+and app.jsx
+
+then move to main.jsx
 
 
-Syntax:
+entry point - component to added in your main.jsx file 
+
+import & export
+
+Create Phase    - rafc - reactarrowfunctioncomponent
+Component creation - file handling - js es6+ feru
+multi components adding - Each files need to add tailwindcss or css
+
+adding - add your component into another component
+
+Images
 
 
+Update Phase    -   Events, hooks, Es6+ , Array methods, form handling
+  
+optimise Phase  -   lazy loading , redex, advanced hooks , custom hooks
 
 
-xml
-
-<tagname attributename="value">Content</tagname>
-
-
-
-
-Example:
-
-
-
-
-xml
-
-<h1 class="heading primary">My Title</h1>
-
-
-
-
-
-
-2. Types of Attributes
-
-
-Type
-	Description
-	Common Examples
-
-Global
-	Can be used on any HTML element
-	class, id, style, title, lang, hidden
-
-Local
-	Used with specific tags only
-	src, href, alt, value, type, for, placeholder, width, height, name
-
-
-
-
-Why important?
-
-
-Without attributes, HTML is static and has no interaction or styling hooks.
-
-
-
-
-
-3. Key Attributes & Usage
-
-
-class
-
-
-Not unique—assignable to multiple elements.
-
-
-Use for styling (CSS, Bootstrap, Tailwind).
-
-
-Supports multiple class values (space-separated).
+Node
+Project setup and file setup
+import & export
+Server setup
+3rd party libraries - express , mongoose , cors, dotenv, multer, jwt
+request & response - Postman
+Setting the api and route and controller files like MVC
 
 
 
 
-xml
-
-<div class="alert alert-success">Success</div>
-
-
+Interact with React
+CURD - LOGIN image uploading 
+ORM - database handling Mongo db
 
 
-Changes appearance only, no JS functionality by default.
+
+JS :
+Functions - 3 type 
+
+array , object , array of object - objcet value access 
+
+array methods , pop push , higher order array - map , filter, find , reduce, sort, valuesof , indexof , includes
 
 
+ES6+ features - ternary oprators, rest oper , speart operators. , telet illites , 
+
+DOM - selectors , propertis , addevent leceners , events
+
+What is react ? 
+React is js library not a framework for building fast, effcient intractive user interfaces , especially spa - single page applications 
+
+developed by facebook. it help build apps using reuseable components- 
+
+
+components - reuseable small peces of UI. 
+
+
+2 types 
+
+
+class compoents - functinal compoenents - 
+
+functional comaponents
+
+Reconciliation?
+
+
+Babel compiler & jsx 
+
+jsx - java script xml - html in js - js file inside html - jsx
+
+
+jsh - jsx - jsx xml
+
+
+js - jsx
+
+
+Node install 
+
+CRA - VITE - Rolldown
+
+
+CRA -- 
+
+npx create-react-app nameforthe app
+
+
+
+VITE - Rolldown - 
+
+npm create vite@latest appname
+
+
+project setup 
+
+
+components create
+
+functional
+
+
+export import  - importent 
+
+
+named export 
+export default 
+
+import
+
+Components creation and imports.
+
+React-router-dom 
+
+
+BrowserRouter
+Routes
+Route - self close
+Link  - tag
+
+
+
+compoenent name should be in caps - and file name it would be any name 
+but try to same in comapaont name and file name same 
+
+
+
+
+
+
+Pros - Propertices  
+
+props is data from one compeoent to another comapaont. like parent to child
+
+
+props are read only - immutable
+
+and resuing compoenent dynamical process.
+
+
+APP - Navbar - Contact - About
+
+
+
+
+const add = ()=>{
+	
+}
+
+
+
+
+
+
+
+Heap + Stack memory
+
+
+HTML + CSS + Boostrap
+
+
+
+2 types of js
+Math & Funtional process - like Your Logical things and code perfomance and understand of your js.  - 20%
+
+
+DOM - 50%: 
+
+Project expreance - 70% 
+
+
+20% Communication - to tell what you learn in the js topics not code. 
+
+
+React - JS - React - Node - java, python
+
+10% - git , laoptop useage, city , unnoda gender , unnoda communication . 
+
+thinking process, attitute, calm , time management , documents , 
+
+detication and intersert . 
+
+
+
+Veriables: 
+
+var    - old es1 es5 
+let    - es6
+const  - es6
+
+Declaration Phases (memory creation phases) - 
+
+variable keyword variable name;  - memory allocation creation
+
+
+variable name - camel case, upper camel case pascel case , snake case, 
+
+oneVariable -   camel case
+
+OneVariable -   upper camel case pascel case
+
+One_variable   - snake case
+
+
+variable keyword variable name
+var headingProcess;  declaration part;
+
+type of using js in web application.
+
+
+
+internal - <script></script>
+
+external - filename.js
+
+
+Access phase:
+
+Printing statement - 
+console.log()
+document.write()
+alert()
+
+
+
+Execution phase - 
+
+
+initialization - part
+variable keyword variable name = data
+
+
+what are all the data we have in js :
+
+Primitive data types - single values
+
+string       -   "two 2345 this is"
+number       -   1234567890123456789012345667890
+boolean      -   true or false
+null         -   No Values. but in js its showing the type is object 
+undefined    -   We give any declaration with out data is undifined the js engines shows the error
+bigint       -
+symbol       -
+
+NaN          - NaN
+
+
+
+Non Primitive Data Types: 
+
+Referance type strore - we use like address pointer.
+
+collection of datas or Process in single varible.
+
+Array 
+Array of object
+object
+functions
+
+
+Arithmatic Operators
+
++,-,*,/,%,**
+
+Assignment Operators
+
+=,+=,*=,
+
+
++=
+
+x=x+1
+
+
+
+
+Comparison Operators:
+==             - less equal comparison or validation = 
+===            - strict equal - 
+!=
+>
+<
+<=
+>=
+
+
+
+Logical Operators: 
+
+&& (AND)  - t-f =f f-f=f,f-t=f,t-t=t
+|| (OR)   - f-t -t t-t-t ,t-f=t,f-f=f
+
+! Not     - t-f,f-t
+
+
+es6 
+Ternary operator
+
+constion?"":""
+
+
+
+
+
+
+
+Variable - 
+
+
+variable key words variable name = 10
+
+Printing statement 
+
+
+
+
+tailwind design
+
+form handling , fetch api using effect
+
+product list, search, filter, reduce, includes
+
+
+
+usestate behavier - update function
+4 state using 
+
+useeffect
+
+
+events
+
+array of object 
+
+
+rendering methods html
+
+react router dom  - Link,usenavite
+
+
+components - js functions
+
+
+
+project setup - vite / cra
+
+
+
+js - es6+ 
+
+
+
+
+
+Re declare
+re assign
+values check using opearots 
+and if condtions and else
+and else if chine
+
+
+
+var react = 10
+
+
+
+
+{
+	
+
+var a = 10 
+log(a)
+
+
+if(condition){
+	log()
+}
+
+function add (){
+	
+}
+
+for(innitalzation;condition;incrment/des){
+
+
+	
+}
+
+while(){
+	
+}
+
+
+}
+
+
+
+if block creation 18 times 
+
+if(codition)
+{
+	log
+}
+with else 18 times 
+
+
+else if block 18 times 
+
+with console.log()
+
+
+
+
+let a = 10 
+
+log('tate')
+
+
+^
+[A-Za-z]
+
+{/^d{10}$}
+
+
+$
+
+
+
+.
+*
++
+
+?
+
+
+
+\s
+
+\d
+
+{}
+
+[]
+
+const email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+
+
+tailwind css - design
+
+useeffect, depentance, withoutdepentance, empty depentance
+
+usestate - behaavire - function - condinatnal rending opnation 
+
+form handling - importent
+
+Events handling
+
+BrowserRouter - routes - route - link - uesnavigate - uselocation
+
+React router dom
+
+render process using array of object,objcet,array
+
+3 types of functions - components - export and import
+
+Project setup
+
+js es6+
+
+
+
+
+
+conditions 
+
+if () {
+	
+}
+
+
+
+Plan - documents
+Place  - land
+man Power - 10
+money - 20
+Tools - cement, soile, water , brikes, steel, stones , woods, paint, wires , tiles, pipes, eb, water connection , equments 
+
+
+js - 
+js language - V8 engines
+
+
+syntex 
+
+assing the man power
+
+var,let ,const - name = 
+
+
+
+
+
+
+Array        -      Collection of datas - or values
+collection of datas stored in a single vairbales 
+
+sign = []
+
+let arr = ["This",2333.545,null,ture,false]
+
+one dimantional array
+tow dia
+muilty
+
+you want to access the array values must know the index
+
+0
+
+
+Object       -
+
+COllection of sducture data - it must have key and value par
+
+if we use object we have to give clasifications of our own datas
+
+we can easyly access the datas
+
+using keys or values
+
+{key:"This is datas"}
+
+
+
+Array of Object- Sduture collection of object -  have the datas
+
+
+[{}]
+
+
+function add(){
+
+
+
+
+	
+}
+
+
+
+
+
+array of object - 
+functions    - 
+
+
+Anonymous function
+
+function add(){
+
+}
+
+const add = function(){
+	
+}
+
+Arrow function
+
+const add = () => {
+	
+}
+
+
+
+
+
+
+
+
+Strong in react
+File handling - project setup - CRA - Vite
+what you focus in next 20 days
+
+Functions - parameter , argumanets . 
+
+looping for making without build - in.
+
+Nested loopning - patterns
+
+
+objects and array
+
+prototypes - higher oredr array methods - simple array methods 
+
+
+ES6+ 
+
+Events - intarcation
+
+
+basics HTML5 and css3 and bootsratp 5 and tailwindcss - 10%
+
+Consepts of js
+
+creation - without db 
+updated  - manupulated - with db database - without db array and local storage
+optimuis - prefoamce
+
+useRef intro
+
+useref is a react hooks that  lets you access or store a value or DOM elemnts reference directly without re-rendering the componant.
+
+some valuable conent.
+
+
+
+
+
+Array  - [datatypes]
+
+
+Array looping 
+   for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+      }
+
+
+
+
+
+
+Task no 1 :
+
+create a array and loop the array 
+and do some math claculations 
+
+Task 2 :
+using for loop for array.
+
+
+Task 3 :
+
+Nested loop using 2 loops and print and check what is the logic
+and using 3 loops and check what is the output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creation phase - html Without database
+ 
+Update Phase - dynamic - 
+
+Optimise phase - 
+
+
+
+
+2 Modle
+User Register
 id
-
-
-Unique for single element in the document.
-
-
-Used for JS targeting and specific CSS rules.
-
-
-
-
-xml
-
-<input id="user-email" type="email" />
-
-
-
-
-Only one use per value allowed per page!
-
-
-Local Attribute Examples
-
-
-<img src="logo.png" alt="Company Logo" width="100" />
-
-
-<a href="https://example.com" title="Visit Example">Visit</a>
-
-
-<input type="text" placeholder="Enter your name" />
-
-
-Used for tag-specific behaviors (image source, link destination, tooltip, form data etc.)
-
-
-
-
-
-4. Attribute-Driven Interaction
-
-
-CSS/JS/Frameworks: Use class and id to select, style, and manipulate elements.
-
-
-Attributes link HTML with styles (CSS) and scripts (JS) for dynamic, interactive, and responsive web pages.
-
-
-
-
-
-5. Common Interview Tasks & Questions
-
-
-Why use class instead of id (and vice versa)?
-
-
-Show an example of using id for JavaScript manipulation.
-
-
-How do Bootstrap or Tailwind use attributes for styling?
-
-
-What’s the difference between global and local attributes?
-
-
-Explain “attribute-value pair” with code.
-
-
-
-
-
-6. Quick Tasks for Practice
-
-
-Make two paragraphs same style using a class, but with different IDs for JS.
-
-
-Add an image with:
-
-
-src, alt, width, and a class for border.
-
-
-Create a form with an <input> using type, placeholder, name, and a unique id. Bind a label using for.
-
-
-
-
-
-
-
-
-7. Experiment/Practical Task
-
-a. Styling with class and id
-
-
-
-
-
-
-
-xml
-
-<style>
-  .highlight { background: yellow; }
-  #special { color: red; }
-</style>
-<p class="highlight">Paragraph One</p>
-<p class="highlight" id="special">Paragraph Two</p>
-
-
-
-
-Try: Select #special with JS to change its text via a button.
-
-
-b. Bootstrap Button Example:
-
-
-Try: Add onclick JS to alert button ID.
-
-
-
-
-
-8. Essential Points
-
-
-Use class for repeated styling and id for unique behaviors.
-
-
-Frameworks heavily utilize class (Bootstrap, Tailwind).
-
-
-id is your bridge to JavaScript.
-
-
-
-
-
-
-
-17.09.2025:
-Form
-The <form> element is a container used to collect input from users, grouping various input fields, buttons, and labels into a single section for data submission.
-
-It helps organize the way different fields work together to collect data for processing.
-
-Label
-The <label> element provides a descriptive title for an input field, helping users understand what kind of data is expected.
-
-Clicking on a label will focus or activate the connected input, improving accessibility, especially for screen readers and users with mobility challenges.
-
-Use the for attribute in <label> with the ID of the input to link them, or wrap the <input> inside the <label> as an alternative.
-
-Input
-The <input> element is the main way to collect user data in a form—it creates fields like text boxes, checkboxes, radio buttons, or file selectors.
-
-The appearance and data type expected depend on the type attribute you set.
-
-type Attribute
-type defines what kind of information the input expects, such as text for standard input, email for email addresses, number for numbers, etc.
-
-This tells both the browser and developer how to interpret or validate the input.
-
 name
-The name attribute identifies the input, so when the form is submitted, the data sent has a name-value pair.
+email
+password
 
-It is required for server-side processing and data collection.
+1. baby register 
 
-value
-Sets a default value for the input field or represents the current value entered by the user.
 
-Useful for pre-filling forms or controlling what data is sent on submission.
 
-hidden
-The hidden attribute makes an input invisible to users but still sends its value with the form.
+https://start.spring.io/
 
-It is used for storing extra data, like tokens or IDs, that the user should not see or modify.
 
-readonly
-The readonly attribute displays the input data but prevents the user from changing it.
+mvn spring-boot:run
 
-Often used when you want the user to see a field’s value for reference but not edit it.
 
-disabled
-The disabled attribute greys out the input and blocks all interaction.
 
-A disabled input cannot be edited or submitted with the form.
 
-placeholder
-The placeholder attribute shows greyed-out hint text inside an input box until the user starts typing.
+axios
 
-It gives a clue about what to enter, improving usability.
 
-required
-Makes sure the field must be filled before submitting the form.
 
-The browser will warn the user if they try to submit an incomplete required field.
 
+
+
+
+
+
+JS
+
+
+document Object Modle
+
+document - main object - HTML
+
+Attaributes of your HTML - or tags - elements
+
+Selectors - 
+getElementById("id") - selects elements by id
+getElementByClassName("class")  - selects based on mutiltple class elements 
+getElementByTagName("tagname")
+querySelector(#id) - select first matching elements
+
+querySelectorAll() - selects all matching elemnts
+
+
+propertics:
+
+innerHTML("<b>Thsi is dom</b>") - using to shoing tag behavire and normal text or number 
+
+innerText()  - text only
+style()      - use for css
+value()
+classList()  - add /remove class
+setAttribute() - add/modify
+remove() - remove the elements
+appendChild() - add inside element another
+createElement() - create element or tags
+
+
+
+event - to tell the browser what the user doing. 
+Inline event      Event  listener
+onclick() -       click
+onsubmit() -      submit
+
+
+
+event listener - addEventListener("event",()=>{})
+
+
+
+
+
+
+
+
+useContext - when you want trsfer your datas to all the compoenent
+useContext - 3 - 1. Create Context - Provide - Consume - useContext
+
+
+2 methods 
+1. No Provider File - UI is there
+2. Provider file
+
+
+
+
+
+
+{
+	
+
+
+
+
+
+	
+}
